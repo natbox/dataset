@@ -21,4 +21,3 @@ s1=(int(c(0.16))+2)*h
 s2=str(len(u+v+w)-2)
 s3=(int(c(0.16))+1)*h
 cc=s1+s2+s3
-a()
