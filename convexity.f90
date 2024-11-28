@@ -9,7 +9,7 @@ program main
     use samplehub, only : my
     implicit none
     character(len=*), parameter :: OUT_FILE = 'inner.txt'
-    character(len=*), parameter :: PLT_FILE = 'microport.plt'
+    character(len=*), parameter :: PLT_FILE = 'port.plt'
     integer,          parameter :: j        =  14
     real, dimension(256) :: series
     real, dimension(384) :: outer
