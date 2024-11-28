@@ -9,11 +9,11 @@ end module samplehub
 program main
     use samplehub, only : my
     implicit none
-    character(len=*), parameter :: OUT_FILE = 'inner.txt'
+    character(len=*), parameter :: OUT_FILE = 'points.txt'
     character(len=*), parameter :: PLT_FILE = 'port.plt'
     integer,          parameter :: j        =  14
-    real, dimension(256) :: series
-    real, dimension(384) :: outer
+    real, dimension(250) :: series
+    real, dimension(14) :: outer
     integer :: u, carbon
     real    :: x(j), y(j)
     x(1) = 0.0
