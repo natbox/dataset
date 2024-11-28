@@ -28,5 +28,5 @@ program main
     end do
     close (carbon)
     call execute_command_line('gnuplot -p ' // PLT_FILE)
-    guess = my(lambda1)
+    !convexFlow = my(lambda1)
 end program main
