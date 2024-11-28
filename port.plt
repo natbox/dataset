@@ -1,7 +1,7 @@
 set nokey
 #set grid
-set xlabel "yielded stress"
-set ylabel "temperature"
+set xlabel "value"
+set ylabel "convexity"
 w = "inner.txt"
 set terminal svg size 400,350
 set output 'image.svg'
