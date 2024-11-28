@@ -12,8 +12,8 @@ program main
     character(len=*), parameter :: OUT_FILE = 'points.txt'
     character(len=*), parameter :: PLT_FILE = 'port.plt'
     integer,          parameter :: j        =  14
-    real, dimension(250) :: series
-    real, dimension(130) :: outer
+    real, dimension(250) :: lambda1
+    real, dimension(130) :: lambda2
     integer :: u, carbon
     real    :: x(j), y(j)
     x(1) = 0.0
@@ -28,5 +28,5 @@ program main
     end do
     close (carbon)
     call execute_command_line('gnuplot -p ' // PLT_FILE)
-    guess = my(series)
+    guess = my(lambda1)
 end program main
