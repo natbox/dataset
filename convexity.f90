@@ -13,7 +13,7 @@ program main
     character(len=*), parameter :: PLT_FILE = 'port.plt'
     integer,          parameter :: j        =  14
     real, dimension(250) :: series
-    real, dimension(14) :: outer
+    real, dimension(130) :: outer
     integer :: u, carbon
     real    :: x(j), y(j)
     x(1) = 0.0
