@@ -14,7 +14,7 @@ program main
     integer,          parameter :: j        =  14
     real, dimension(250) :: lambda1
     real, dimension(130) :: lambda2
-    integer :: u, carbon
+    integer :: u, convexFlow
     real    :: x(j), y(j)
     x(1) = 0.0
     y(1) = 264
@@ -22,11 +22,11 @@ program main
         x(u) = 0.1 * u * 8
         y(u) = 264-x(u)**2
     end do
-    open (action='write', file=OUT_FILE, newunit=carbon, status='replace')
+    open (action='write', file=OUT_FILE, newunit=convexFlow, status='replace')
     do u = 1, j
-        write (carbon,*) x(u), y(u)
+        write (convexFlow,*) x(u), y(u)
     end do
-    close (carbon)
+    close (convexFlow)
     call execute_command_line('gnuplot -p ' // PLT_FILE)
     !convexFlow = my(lambda1)
 end program main
