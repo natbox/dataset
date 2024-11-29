@@ -9,7 +9,7 @@ class Points:
     print((int(c(0.08))+5)*h)
   def __call__(self):
     print(cc)
-a = Points()
+a=Points()
 for x in range(int(c(0.5))):
   u=str(h+3*((2*r-x)*b+d))
   v=str(h+3*(2*x*b)+h)
@@ -22,7 +22,7 @@ class Dashes:
 dash=Dashes()
 s3=(int(c(0.16))+1)*h
 cc=s1+dash.s2+s3
-a = Points()
+a=Points()
 for x in range(int(c(0.5))):
   u=str(h+3*((2*r-x)*b+d))
   v=str(h+3*(2*x*b)+h)
