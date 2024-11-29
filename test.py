@@ -1,6 +1,7 @@
 from parabolicity import *
 a()
-def fibonacci(n)
-    return n if (0..1).include? n
+def fibonacci(n):
+  if 1 == n:
     (fibonacci(n-1) + fibonacci(n-2))
-end
+  return n
+#end if
