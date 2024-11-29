@@ -4,6 +4,7 @@ d='.'
 b=' '
 c=lambda z:r/z
 h='*'
+
 class Points:
   def __init__(self):
     print((int(c(0.08))+5)*h)
