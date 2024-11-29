@@ -14,6 +14,6 @@ public class fuzzyLogic {
   mass(controller);
   }
   static void mass(signal+type){
-  type.flow();
+  type.proto();
   }
 }
