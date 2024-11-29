@@ -2,8 +2,8 @@
 module samplehub
    contains
    function my(port)
-   real, dimension(:) :: port
-   real, dimension(size(port)) :: a
+   !real, dimension(:) :: port
+   !real, dimension(size(port)) :: a
    end function my
 end module samplehub
 program main
