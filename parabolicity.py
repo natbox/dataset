@@ -21,7 +21,7 @@ for x in range(int(c(0.5))):
 s1=(int(c(0.16))+2)*h
 
 class Dashes:
-  s2=str(len(sum)-2)
+  s2=str(len(u+v+w)-2)
 dash=Dashes()
 
 s3=(int(c(0.16))+1)*h
