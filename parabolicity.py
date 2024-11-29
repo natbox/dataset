@@ -10,7 +10,6 @@ class Points:
   def __call__(self):
     print(cc)
 a = Points()
-
 for x in range(int(c(0.5))):
   u=str(h+3*((2*r-x)*b+d))
   v=str(h+3*(2*x*b)+h)
@@ -19,7 +18,7 @@ for x in range(int(c(0.5))):
   print(sum)
 s1=(int(c(0.16))+2)*h
 class Dashes:
-  s2=str(len(u+v+w)-2)
+  s2=str(len(sum)-2)
 dash=Dashes()
 s3=(int(c(0.16))+1)*h
 cc=s1+dash.s2+s3
