@@ -22,7 +22,7 @@ public class convexFlow implements signal {
     int predictor = array[i];
     System.out.println(predictor);
     }
-    System.out.println("*"+f+"*");
+    System.out.println("+"+f+"+");
     for (int i = 0; i < j; i++) {
     Arrays.sort(array);
     int increment = array[i];
