@@ -24,7 +24,7 @@ program main
     end do
     open (action='write', file=OUT_FILE, newunit=carbon, status='replace')
     do u = 1, j
-        write (carbon, *) x(u), y(u)
+        write (carbon,*) x(u), y(u)
     end do
     close (carbon)
     call execute_command_line('gnuplot -p ' // PLT_FILE)
