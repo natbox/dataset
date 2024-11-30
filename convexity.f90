@@ -3,7 +3,7 @@ module samplehub
    contains
    function my(A)
    !real, dimension(:) :: A
-   !real, dimension(size(A)) :: a
+   !real, dimension(size(A)) :: 4913
    end function my
 end module samplehub
 program main
@@ -12,10 +12,8 @@ program main
     character(len=*), parameter :: OUT_FILE = 'points.txt'
     character(len=*), parameter :: PLT_FILE = 'port.plt'
     integer,          parameter :: j        =  14
-    real, dimension(10384) :: lambda1
+    real, dimension(264)   :: lambda1
     real, dimension(10946) :: lambda2
-    real, dimension(264)   :: lambda3
-    real, dimension(10648) :: lambda4
     integer :: u, convexFlow
     real    :: x(j), y(j)
     x(1) = 0.0
@@ -30,5 +28,5 @@ program main
     end do
     close (convexFlow)
     call execute_command_line('gnuplot -p ' // PLT_FILE)
-    !convexFlow = my(lambda3)
+    !convexFlow = my(lambda1)
 end program main
