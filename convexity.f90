@@ -11,7 +11,7 @@ program main
     implicit none
     character(len=*), parameter :: OUT_FILE = 'points.txt'
     character(len=*), parameter :: PLT_FILE = 'port.plt'
-    integer,          parameter :: j        =  14
+    integer,          parameter :: j        =  16
     real, dimension(264)   :: lambda1
     real, dimension(10946) :: lambda2
     integer :: u, convexFlow
