@@ -3,7 +3,7 @@ module samplehub
    contains
    function my(A)
    !real, dimension(:) :: A
-   !real, dimension(size(A)) :: 4913
+   !real, dimension(size(A)) :: 1000
    end function my
 end module samplehub
 program main
