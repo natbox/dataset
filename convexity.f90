@@ -1,9 +1,9 @@
 !convexity.f90.
 module samplehub
    contains
-   function my(port)
-   !real, dimension(:) :: port
-   !real, dimension(size(port)) :: a
+   function my(A)
+   !real, dimension(:) :: A
+   !real, dimension(size(A)) :: a
    end function my
 end module samplehub
 program main
