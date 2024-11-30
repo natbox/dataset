@@ -2,8 +2,14 @@
 module samplehub
    contains
    function my(A)
+   INTEGER, PARAMETER :: nx = 6, ny = 6
+   REAL :: dx, dy, u(nx,ny)
    !real, dimension(:) :: A
    !real, dimension(size(A)) :: 1000
+   real, dimension(nx) :: ux
+   real, dimension(ny) :: uy
+   !ux = (u(i+1,j) - u(i-1,j)) / dx
+   !uy = (u(i,j+1) - u(i,j-1)) / dy 
    end function my
 end module samplehub
 program main
