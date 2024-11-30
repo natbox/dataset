@@ -22,13 +22,15 @@ public class lambdaPrediction {
         Random rand = new Random();
         int rand_int1 = rand.nextInt(10384);
         int rand_int2 = rand.nextInt(10648);
-        int rand_int3 = rand.nextInt(10946);
+        int rand_int3 = rand.nextInt(  264);
+        int rand_int4 = rand.nextInt(10946);
         Consumer<List<Integer>>
             dispList = list -> list.stream().forEach(b -> System.out.print(b+" "));
         List<Integer> list = new ArrayList<Integer>();
         list.add(rand_int1);
         list.add(rand_int2);
         list.add(rand_int3);
+        list.add(rand_int4);
         modify.andThen(dispList).accept(list);
         System.out.println("kelvinseconds per meter");
         ;
