@@ -7,6 +7,7 @@ module samplehub
    real :: dx, dy, convexity(nx,ny)
    real, dimension(nx) :: ux
    real, dimension(ny) :: uy
+   logical :: pravda
    !real, dimension(:) :: A
    !real, dimension(size(A)) :: 1000
    convexity=impedance**3
