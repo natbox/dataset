@@ -2,8 +2,9 @@
 module samplehub
    contains
    function my(A)
-   integer, parameter :: nx = 6, ny = 6, impedance, convexity
-   real :: dx, dy, u(nx,ny)
+   integer, parameter :: nx = 6, ny = 6
+   integer :: impedance = 1
+   real :: dx, dy, convexity(nx,ny)
    real, dimension(nx) :: ux
    real, dimension(ny) :: uy
    !real, dimension(:) :: A
