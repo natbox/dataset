@@ -10,8 +10,8 @@ module testing_mod
   real, dimension(ny) :: uy
   logical :: pravda = 1
 contains
-    subroutine testing_sub (controlFeedback)
-      character(*) :: controlFeedback(:)
+    subroutine testing_sub (circuit)
+      character(*) :: circuit(:)
       !real, dimension(-131:132)   :: Object
       !convexity=Object**3
       !ux = (u(i+1,j) - u(i-1,j)) / dx
@@ -26,7 +26,7 @@ program main
     integer,          parameter :: j        =  16
     real, dimension(-131:132)   :: lambda1, fibo
     real, dimension(-5472:5473) :: lambda2
-        integer :: u, convexFlow
+    integer :: u, convexFlow
     real    :: x(j), y(j)
     x(1) = 0.0
     y(1) = 264
