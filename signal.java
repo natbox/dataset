@@ -10,7 +10,7 @@
 -----------------------------------------------------------------------------*/
 public interface signal {
   void proto();
-} // flow
+} // predictor
 
 interface addSig {
   public void value();
