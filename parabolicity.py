@@ -29,7 +29,7 @@ for x in range(int(c(0.5))):
   w=str(3*(d+(2*r-x)*b)+h)
   sum=u+v+w
   print(sum)
-dictionary =	{
+dictionary ={
   "point1": 10384,
   "point2": 10946,
   "point3": 264,
