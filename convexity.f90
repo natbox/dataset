@@ -41,12 +41,12 @@ program main
     close (convexFlow)
     call execute_command_line('gnuplot -p ' // PLT_FILE)
     !fibo = my(lambda1)
-    test1(1)= "A"
-    test1(2)= "B"
-    test1(3)= "C"
+    test1(1)= "point1"
+    test1(2)= "point2"
+    test1(3)= "point3"
     call testing_sub(test1)
-    test2(1)= "X"
-    test2(2)= "Y"
-    test2(3)= "Z"
+    test2(1)= "10946"
+    test2(2)=   "264"
+    test2(3)= "10648"
     call testing_sub(test2)
 end program main
