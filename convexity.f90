@@ -1,14 +1,14 @@
 !convexity.f90.
 module samplehub
    contains
-   function my(A)
+   function my(Object)
    integer, parameter :: nx = 6, ny = 6
    integer :: impedance = 1
    real :: dx, dy, convexity(nx,ny)
    real, dimension(nx) :: ux
    real, dimension(ny) :: uy
    logical :: pravda = 1
-   !real, dimension(:) :: A
+   !real, dimension(:) :: Object
    !real, dimension(size(A)) :: 1000
    convexity=impedance**3
    !ux = (u(i+1,j) - u(i-1,j)) / dx
