@@ -12,7 +12,7 @@ program central_diff
   end do
   u(4,3) = 264
   open(1, file = 'heat_map_data.csv', status = 'new')
-    do i=1,6
+  do i=1,6
      write(1,*) u(i,1), u(i,2), u(i,3), u(i,4), u(i,5), u(i,6)
   end do
 end program central_diff
