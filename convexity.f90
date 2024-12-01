@@ -1,28 +1,52 @@
 !convexity.f90.
-module samplehub
-   contains
-   function my(Object)
-   integer, parameter :: nx = 6, ny = 6
-   integer :: impedance = 1
-   real :: dx, dy, convexity(nx,ny)
-   real, dimension(nx) :: ux
-   real, dimension(ny) :: uy
-   logical :: pravda = 1
-   !real, dimension(:) :: Object
-   !real, dimension(size(A)) :: 1000
-   convexity=impedance**3
-   !ux = (u(i+1,j) - u(i-1,j)) / dx
-   !uy = (u(i,j+1) - u(i,j-1)) / dy
-   end function my
-end module samplehub
+module testing_mod 
+  implicit none
+
+  character(len=10) :: test1(10)
+  character(len=30) :: test2(30)
+
+  integer, parameter :: nx = 6, ny = 6
+  integer :: impedance = 1
+  real :: dx, dy, convexity(nx,ny)
+  real, dimension(nx) :: ux
+  real, dimension(ny) :: uy
+  logical :: pravda = 1
+
+contains
+ 
+   subroutine testing_sub (cars)
+      character(*) :: cars(:)
+      !print *,"CARS=", cars(1),cars(2),cars(3)
+
+      !real, dimension(-131:132)   :: Object
+      !contains
+      !function my(Object)
+      
+      !real, dimension(:) :: Object
+      !real, dimension(size(A)) :: 1000
+
+      !!convexity=Object**3
+
+      !ux = (u(i+1,j) - u(i-1,j)) / dx
+      !uy = (u(i,j+1) - u(i,j-1)) / dy
+   end subroutine testing_sub
+  
+end module testing_mod
+
+!module samplehub
+
+!   end function my
+!end module samplehub
+
 program main
-    use samplehub, only : my
-    implicit none
+    use testing_mod
+    !implicit none
     character(len=*), parameter :: OUT_FILE = 'points.txt'
     character(len=*), parameter :: PLT_FILE = 'port.plt'
     integer,          parameter :: j        =  16
-    real, dimension(-131:132)   :: lambda1
+    real, dimension(-131:132)   :: lambda1, fibo
     real, dimension(-5472:5473) :: lambda2
+    
     integer :: u, convexFlow
     real    :: x(j), y(j)
     x(1) = 0.0
@@ -37,5 +61,14 @@ program main
     end do
     close (convexFlow)
     call execute_command_line('gnuplot -p ' // PLT_FILE)
-    !convexFlow = my(lambda1)
+    !fibo = my(lambda1)
+    test1(1)= "A"
+    test1(2)= "B"
+    test1(3)= "C"
+    call testing_sub(test1)
+  
+    test2(1)= "X"
+    test2(2)= "Y"
+    test2(3)= "Z"
+    call testing_sub(test2)
 end program main
