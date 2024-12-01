@@ -1,43 +1,23 @@
 !convexity.f90.
 module testing_mod 
   implicit none
-
   character(len=10) :: test1(10)
   character(len=30) :: test2(30)
-
   integer, parameter :: nx = 6, ny = 6
   integer :: impedance = 1
   real :: dx, dy, convexity(nx,ny)
   real, dimension(nx) :: ux
   real, dimension(ny) :: uy
   logical :: pravda = 1
-
 contains
- 
-   subroutine testing_sub (controlFeedback)
+    subroutine testing_sub (controlFeedback)
       character(*) :: controlFeedback(:)
-      !print *,"CARS=", cars(1),cars(2),cars(3)
-
       !real, dimension(-131:132)   :: Object
-      !contains
-      !function my(Object)
-      
-      !real, dimension(:) :: Object
-      !real, dimension(size(A)) :: 1000
-
-      !!convexity=Object**3
-
+      !convexity=Object**3
       !ux = (u(i+1,j) - u(i-1,j)) / dx
       !uy = (u(i,j+1) - u(i,j-1)) / dy
    end subroutine testing_sub
-  
-end module testing_mod
-
-!module samplehub
-
-!   end function my
-!end module samplehub
-
+  end module testing_mod
 program main
     use testing_mod
     !implicit none
@@ -46,8 +26,7 @@ program main
     integer,          parameter :: j        =  16
     real, dimension(-131:132)   :: lambda1, fibo
     real, dimension(-5472:5473) :: lambda2
-    
-    integer :: u, convexFlow
+        integer :: u, convexFlow
     real    :: x(j), y(j)
     x(1) = 0.0
     y(1) = 264
@@ -66,8 +45,7 @@ program main
     test1(2)= "B"
     test1(3)= "C"
     call testing_sub(test1)
-  
-    test2(1)= "X"
+      test2(1)= "X"
     test2(2)= "Y"
     test2(3)= "Z"
     call testing_sub(test2)
