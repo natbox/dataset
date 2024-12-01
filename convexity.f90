@@ -45,7 +45,7 @@ program main
     test1(2)= "B"
     test1(3)= "C"
     call testing_sub(test1)
-      test2(1)= "X"
+    test2(1)= "X"
     test2(2)= "Y"
     test2(3)= "Z"
     call testing_sub(test2)
