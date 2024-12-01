@@ -4,12 +4,12 @@ d='.'
 b=' '
 c=lambda z:r/z
 h='*'
-class Points:
+class points:
   def __init__(self):
     print((int(c(0.08))+5)*h)
   def __call__(self):
     print(cc)
-a=Points()
+a=points()
 for x in range(int(c(0.5))):
   u=str(h+3*((2*r-x)*b+d))
   v=str(h+3*(2*x*b)+h)
@@ -17,12 +17,12 @@ for x in range(int(c(0.5))):
   sum=u+v+w
   print(sum)
 s1=(int(c(0.16))+2)*h
-class Dashes:
+class dashes:
   s2=str(len(u+v+w)-2)
-dash=Dashes()
+dash=dashes()
 s3=(int(c(0.16))+1)*h
 cc=s1+dash.s2+s3
-a=Points()
+a=points()
 for x in range(int(c(0.5))):
   u=str(h+3*((2*r-x)*b+d))
   v=str(h+3*(2*x*b)+h)
