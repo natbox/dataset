@@ -14,4 +14,4 @@ public interface signal {
 
 interface addSig {
   public void value();
-} // temperature
+} // impedance
