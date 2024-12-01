@@ -46,7 +46,7 @@ program main
     test1(3)= "point3"
     call testing_sub(test1)
     test2(1)= "10946"
-    test2(2)=   "264"
-    test2(3)= "10648"
+    test2(2)=   "264"     ! tests the sorting of three points to obtain
+    test2(3)= "10648"     ! a circle an additional in a cone case
     call testing_sub(test2)
 end program main
