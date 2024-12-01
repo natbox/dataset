@@ -14,8 +14,8 @@ module testing_mod
 
 contains
  
-   subroutine testing_sub (cars)
-      character(*) :: cars(:)
+   subroutine testing_sub (controlFeedback)
+      character(*) :: controlFeedback(:)
       !print *,"CARS=", cars(1),cars(2),cars(3)
 
       !real, dimension(-131:132)   :: Object
