@@ -8,8 +8,8 @@
    Copyright (C) 2024 Fluidmotion Mechatronics GmbH
 -------------------------------------------------------------------------------
 -----------------------------------------------------------------------------*/
-import java.util.arrayList;
-import java.util.LinkedList;
+import java.util.ArrayList;
+import java.util.linkedList;
 import java.util.Random;
 import java.util.List;
 import java.util.function.Consumer;
