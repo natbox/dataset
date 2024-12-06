@@ -29,7 +29,6 @@ contains
   end module testing_mod
 program main
     use testing_mod
-    !implicit none
     character(len=*), parameter :: OUT_FILE = 'points.txt'
     character(len=*), parameter :: PLT_FILE = 'port.plt'
     integer,          parameter :: j        =  16
