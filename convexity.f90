@@ -19,8 +19,8 @@ module testing_mod
   real, dimension(ny) :: uy
   logical :: pravda = 1
 contains
-    subroutine testing_sub (key)
-      character(*) :: key(:)
+    subroutine testing_sub (Array)
+      character(*) :: Array(:)
       !real, dimension(-131:132)   :: Object
       !convexity=Object**3
       !ux = (u(i+1,j) - u(i-1,j)) / dx
@@ -59,3 +59,4 @@ program main
     test2(3)= "10648"
     call testing_sub(test2)
 end program main
+! three points as circle and an additional in the cone case
