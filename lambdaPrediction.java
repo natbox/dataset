@@ -25,7 +25,7 @@ public class lambdaPrediction {
         Consumer<List<Integer>>
             dispList = list -> list.stream().forEach(b -> System.out.print(b+" "));
         List<Integer> list = new ArrayList<Integer>();
-        list.add(rand_int3);
+        // list.add(rand_int3);
         list.add(rand_int4);
         modify.andThen(dispList).accept(list);
         System.out.println("kelvinseconds per meter");
