@@ -18,7 +18,7 @@ module testing_mod
   real, dimension(nx) :: ux
   real, dimension(ny) :: uy
   logical :: pravda = 1
-  character(*) :: liquid(:)
+  character(*) :: material(:)
 contains
     subroutine testing_sub (item)
       character(*) :: item(:)
