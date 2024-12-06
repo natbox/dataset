@@ -10,8 +10,8 @@
 #-------------------------------------------------------------------------------
 set nokey
 #set grid
-set xlabel "value"
-set ylabel "convexity"
+set xlabel "Array"
+set ylabel "Convexity"
 w = "points.txt"
 set terminal svg size 400,350
 set output 'image.svg'
