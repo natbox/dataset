@@ -9,7 +9,7 @@
 -------------------------------------------------------------------------------
 -----------------------------------------------------------------------------*/
 import java.util.ArrayList;
-import java.util.linkedList;
+import java.util.LinkedList;
 import java.util.Random;
 import java.util.List;
 import java.util.function.Consumer;
