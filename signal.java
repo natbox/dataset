@@ -11,7 +11,6 @@
 public interface signal {
   void proto();
 } // static predictor
-
-public interface nonconical {
+/*public interface nonconical {
   void value();
-} // impedance
+} // impedance*/
