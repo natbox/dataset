@@ -19,8 +19,8 @@ module testing_mod
   real, dimension(ny) :: uy
   logical :: material = 1
 contains
-    subroutine testing_sub (item)
-      character(*) :: item(:)
+    subroutine testing_sub (key)
+      character(*) :: key(:)
       !real, dimension(-131:132)   :: Object
       !convexity=Object**3
       !ux = (u(i+1,j) - u(i-1,j)) / dx
