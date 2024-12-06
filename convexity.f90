@@ -59,4 +59,3 @@ program main
     test2(3)= "10648"
     call testing_sub(test2)
 end program main
-! three points as circle an additional in a cone case
