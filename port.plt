@@ -2,7 +2,7 @@
 #-------------------------------------------------------------------------------
 #                            |
 #         FM-VABE            |  Fluidmotion: Thermoelectric Control Engineering
-#           400              |  www.fluidmotion.at
+#           400              |  www.fluidmotion.lu
 #                            |
 #-------------------------------------------------------------------------------
 #   Copyright (C) 2024 Fluidmotion Mechatronics GmbH
