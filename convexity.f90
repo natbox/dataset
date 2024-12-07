@@ -58,4 +58,4 @@ program main
     test2(3)= "10648"
     call testing_sub(test2)
 end program main
-! three points as circle and an additional in the cone case
+! three points as detrimental and an additional in the cone case
