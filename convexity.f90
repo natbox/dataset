@@ -17,7 +17,7 @@ module testing_mod
   real :: dx, dy, convexity(nx,ny)
   real, dimension(nx) :: ux
   real, dimension(ny) :: uy
-  logical :: pravda = 0
+  logical :: pravda = 1
 contains
     subroutine testing_sub (key)
       character(*) :: key(:)
