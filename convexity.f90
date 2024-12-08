@@ -21,7 +21,7 @@ module testing_mod
 contains
     subroutine testing_sub (key)
       character(*) :: key(:)
-      !real, dimension(-131:132)   :: virtual
+      !real, dimension(-131:132)   :: item
       !convexity=Object**3
       !ux = (u(i+1,j) - u(i-1,j)) / dx
       !uy = (u(i,j+1) - u(i,j-1)) / dy
