@@ -14,7 +14,7 @@ import java.util.Random;
 import java.util.List;
 import java.util.function.Consumer;
 public class lambdaPrediction implements signal {
-    public static void value()
+    public static void impedance()
     {   Consumer<List<Integer>> modify = list -> {
             for (int i = 0; i < list.size(); i++)
                 list.set(i, list.get(i));
