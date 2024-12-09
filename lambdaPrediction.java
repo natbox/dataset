@@ -13,8 +13,8 @@ import java.util.LinkedList;
 import java.util.Random;
 import java.util.List;
 import java.util.function.Consumer;
-public class lambdaPrediction {
-    public static void main(String args[])
+public class lambdaPrediction implements signal {
+    public static void value()
     {   Consumer<List<Integer>> modify = list -> {
             for (int i = 0; i < list.size(); i++)
                 list.set(i, list.get(i));
