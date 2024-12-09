@@ -10,7 +10,7 @@
 #-------------------------------------------------------------------------------
 set nokey
 #set grid
-set xlabel "Array"
+set xlabel "Proxy Power"
 set ylabel "Convexity"
 w = "points.txt"
 set terminal svg size 400,350
