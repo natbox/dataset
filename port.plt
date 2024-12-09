@@ -10,8 +10,8 @@
 #-------------------------------------------------------------------------------
 set nokey
 #set grid
-set xlabel "Proxy Power"
-set ylabel "Convexity"
+set xlabel "proxy power"
+set ylabel "artificial person's convexity"
 w = "points.txt"
 set terminal svg size 400,350
 set output 'image.svg'
