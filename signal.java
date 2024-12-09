@@ -10,7 +10,7 @@
 -----------------------------------------------------------------------------*/
 public interface signal {
   void proto();
-} // static predictor
+} // predictor
 interface lambdaPrediction {
-  public void value();
-} // impedance
+  public void impedance();
+} // static
