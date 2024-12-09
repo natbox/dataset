@@ -11,6 +11,6 @@
 public interface signal {
   void proto();
 } // static predictor
-/*public interface nonconical {
-  void value();
-} // impedance*/
+interface lambdaPrediction {
+  public void value();
+} // impedance
