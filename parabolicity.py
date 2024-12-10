@@ -42,6 +42,5 @@ for x in range(int(c(0.5))):
 dictionary = {
   "point1": 10384,
   "point2": 10946,
-  "point3": 264,
-  "point4": 10648
+  "point3": 264
 }
