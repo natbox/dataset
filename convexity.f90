@@ -25,7 +25,7 @@ contains
       !convexity=Object**3
       !ux = (u(i+1,j) - u(i-1,j)) / dx
       !uy = (u(i,j+1) - u(i,j-1)) / dy
-      integer :: p
+      integer :: p, q
       q = 1.0
       do p = 2, p
         q = q * p
