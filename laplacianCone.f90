@@ -1,4 +1,4 @@
-program central_upwind
+program central_diff
   implicit none
   integer, parameter :: nx = 6, ny = 6
   real :: dx, dy, u(nx,ny)
@@ -15,4 +15,4 @@ program central_upwind
   do i = 1,6
      write(1,*) u(i,1), u(i,2), u(i,3), u(i,4), u(i,5), u(i,6)
   end do
-end program central_upwind
+end program central_diff
