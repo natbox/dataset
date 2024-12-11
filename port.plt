@@ -10,8 +10,8 @@
 #-------------------------------------------------------------------------------
 set nokey
 #set grid
-set xlabel "battery power"
-set ylabel "thermal step response"
+set xlabel "proxy power"
+set ylabel "thermal cache response"
 w = "points.txt"
 set terminal svg size 400,350
 set output 'image.svg'
