@@ -10,8 +10,8 @@
 #-------------------------------------------------------------------------------
 set nokey
 #set grid
-set xlabel "thermal proxy power"
-set ylabel "artificial person's convexity"
+set xlabel "battery power"
+set ylabel "thermal step response"
 w = "points.txt"
 set terminal svg size 400,350
 set output 'image.svg'
