@@ -11,7 +11,7 @@
 set nokey
 #set grid
 set xlabel "proxy power"
-set ylabel "thermal cache response"
+set ylabel "cache response"
 w = "points.txt"
 set terminal svg size 400,350
 set output 'image.svg'
