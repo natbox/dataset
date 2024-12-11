@@ -29,7 +29,7 @@ contains
       q = 1.0
       do p = 2, p
         q = q * p
-      enddo
+      enddo ! => factorisation
    end subroutine testing_sub
   end module testing_mod
 program main
