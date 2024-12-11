@@ -10,8 +10,8 @@
 #-------------------------------------------------------------------------------
 set nokey
 #set grid
-set xlabel "proxy power"
-set ylabel "cache flow"
+set xlabel "proxyflow"
+set ylabel "cache power"
 w = "points.txt"
 set terminal svg size 400,350
 set output 'image.svg'
