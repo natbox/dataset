@@ -44,8 +44,8 @@ program main
     x(1) = 0.0
     y(1) = 264
     do u = 2, j
-        x(u) = 0.1 * u * 8
-        y(u) = 264-x(u)**2 ! deducted 264x(u)-1/3x(u)**3 expression
+        x(u) = 0.1 * u * 8 ! deducted expression
+        y(u) = 264-x(u)**2 ! from 264x(u)-1/3x(u)**3
     end do
     open (action='write', file=OUT_FILE, newunit=convexFlow, status='replace')
     do u = 1, j
