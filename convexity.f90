@@ -37,7 +37,7 @@ program main
     character(len=*), parameter :: OUT_FILE = 'points.txt'
     character(len=*), parameter :: PLT_FILE = 'port.plt'
     integer,          parameter :: j        =  18
-    real, dimension(-131:132)   :: lambda1, fibo
+    real, dimension(-132:131)   :: lambda1, fibo
     real, dimension(-5472:5473) :: lambda2
     integer :: u, convexFlow
     real    :: x(j), y(j)
