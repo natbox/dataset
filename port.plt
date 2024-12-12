@@ -11,7 +11,7 @@
 set nokey
 #set grid
 set xlabel "thermal proxy power"
-set ylabel "convexity"
+set ylabel "deduced convexity"
 w = "points.txt"
 set terminal svg size 400,350
 set output 'image.svg'
