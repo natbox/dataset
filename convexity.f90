@@ -38,7 +38,7 @@ program main
     character(len=*), parameter :: PLT_FILE = 'port.plt'
     integer,          parameter :: j        =  18
     real, dimension(-132:131)   :: lambda1, fibo
-    real, dimension(-5472:5473) :: lambda2
+    real, dimension(-5473:5473) :: lambda2
     integer :: u, convexFlow
     real    :: x(j), y(j)
     x(1) = 0.0
