@@ -21,7 +21,7 @@ module testing_mod
 contains
     subroutine testing_sub (hybris)
       character(*) :: hybris(:)
-      !real, dimension(-131:132)   :: proxy
+      !real, dimension(-131:132)   :: transparency
       !convexity=Object**3
       !ux = (u(i+1,j) - u(i-1,j)) / dx
       !uy = (u(i,j+1) - u(i,j-1)) / dy
