@@ -19,8 +19,8 @@ module testing_mod
   real, dimension(ny) :: uy
   logical :: pravda = 1
 contains
-    subroutine testing_sub (hybris)
-      character(*) :: hybris(:)
+    subroutine testing_sub (interface)
+      character(*) :: interface(:)
       !real, dimension(-131:132) :: transparency
       !convexity=Object**3
       !ux = (u(i+1,j) - u(i-1,j)) / dx
