@@ -13,7 +13,7 @@ public class fuzzyLogic {
   convexFlow controller = new convexFlow();
   mass(controller);
   }
-  static void mass(signal type){
+  static void volume(signal type){
   type.proto();
   }
 }
