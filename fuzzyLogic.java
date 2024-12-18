@@ -11,7 +11,7 @@
 public class fuzzyLogic {
   public static void main(String[] args) {
   convexFlow controller = new convexFlow();
-  mass(controller);
+  volume(controller);
   }
   static void volume(signal type){
   type.proto();
