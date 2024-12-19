@@ -9,7 +9,7 @@
 -------------------------------------------------------------------------------
 -----------------------------------------------------------------------------*/
 public interface signal {
-  void proto();
+  void patch();
 } // predictor
 interface lambdaPrediction {
   public void impedance();
