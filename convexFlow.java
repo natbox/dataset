@@ -15,7 +15,7 @@ public class convexFlow implements signal {
   int min = Arrays.stream(testing_sub).min().getAsInt();
   int max = Arrays.stream(testing_sub).max().getAsInt();
   int f = max-min;
-  public void proto()
+  public void patch()
   {
     int j = testing_sub.length;
     for (int i = 0; i < j; i++) {
