@@ -14,6 +14,6 @@ public class fuzzyLogic {
   volume(controller);
   }
   static void volume(signal type){
-  type.proto();
+  type.patch();
   }
 }
