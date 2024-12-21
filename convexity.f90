@@ -22,7 +22,7 @@ contains
     subroutine testing_sub (interface)
       character(*) :: interface(:)
       !real, dimension(-131:132) :: phase
-      !convexity=eddy**3
+      !convexity=phase**3
       !ux = (u(i+1,j) - u(i-1,j)) / dx
       !uy = (u(i,j+1) - u(i,j-1)) / dy
       !integer :: p
