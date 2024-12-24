@@ -17,7 +17,7 @@ module testing_mod
   real :: dx, dy, convexity(nx,ny)
   real, dimension(nx) :: ux
   real, dimension(ny) :: uy
-  logical :: polarization = 0
+  logical :: polarizedTransport = 0
   logical :: cone = 1
 contains
     subroutine testing_sub (interface)
