@@ -13,7 +13,6 @@ module testingmod
   character(len=10) :: test1(10)
   character(len=30) :: test2(30)
   integer, parameter :: nx = 6, ny = 6
-  integer :: impedance = 1
   real :: dx, dy, convexity(nx,ny)
   real, dimension(nx) :: ux
   real, dimension(ny) :: uy
