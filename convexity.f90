@@ -8,7 +8,7 @@
 !   Copyright (C) 2024 Fluidmotion Mechatronics LLC
 !-------------------------------------------------------------------------------
 !-------------------------------------------------------------------------------
-module testing_mod 
+module testingmod 
   implicit none
   character(len=10) :: test1(10)
   character(len=30) :: test2(30)
@@ -20,7 +20,7 @@ module testing_mod
   logical :: polarizedTransport = 0
   logical :: cone = 1
 contains
-    subroutine testing_sub (interface)
+    subroutine testingsub (interface)
       character(*) :: interface(:)
       !real, dimension(-131:132) :: phase
       !convexity=phase**3
@@ -31,10 +31,10 @@ contains
       !do p = 2, p
       !  q = q * p
       !enddo
-   end subroutine testing_sub
-  end module testing_mod
+   end subroutine testingsub
+  end module testingmod
 program main
-    use testing_mod
+    use testingmod
     character(len=*), parameter :: OUT_FILE = 'points.txt'
     character(len=*), parameter :: PLT_FILE = 'port.plt'
     integer,          parameter :: j        =  18
@@ -58,9 +58,9 @@ program main
     test1(1)= "point1"
     test1(2)= "point2"
     test1(3)= "point3"
-    call testing_sub(test1)
+    call testingsub(test1)
     test2(1)= "10946"
     test2(2)=   "264"
     test2(3)= "10648"
-    call testing_sub(test2)
+    call testingsub(test2)
 end program main
