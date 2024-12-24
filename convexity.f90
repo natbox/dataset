@@ -18,7 +18,7 @@ module testing_mod
   real, dimension(nx) :: ux
   real, dimension(ny) :: uy
   logical :: pravda = 0
-  logical :: pravda2 = 1
+  logical :: cone = 1
 contains
     subroutine testing_sub (interface)
       character(*) :: interface(:)
