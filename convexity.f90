@@ -16,8 +16,8 @@ module testingmod
   real :: dx, dy, convexity(nx,ny)
   real, dimension(nx) :: ux
   real, dimension(ny) :: uy
-  logical :: polarizedTransport = 0
-  logical :: cone = 1
+  logical :: polarizedTransport = 1
+  logical :: cone = 0
 contains
     subroutine testingsub (interface)
       character(*) :: interface(:)
